@@ -1,0 +1,104 @@
+<!-- TODO: replace the contents of this file with your own html -->
+<div class="palm-dark">
+	<div class="" id="nheader">
+	</div>
+	
+	<div class="palm-group">
+		<div class="palm-group-title">Your Friend Code</div>
+		<div class="palm-list">
+			<div class="palm-row single">
+				<div class="palm-row-wrapper"  x-mojo-tap-highlight="immediate" id="setName">
+					<div class="label">Your Name</div>
+					<div id="yourname">Set Your Name</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="palm-group">
+		<div class="palm-group-title">Your Codes</div>
+		<div class="palm-list">
+   			<div class="palm-row single">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="Button" class="palmbutton primary" id="regenerateButton"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="palm-group">
+		<div class="palm-group-title">Schedule</div>
+		<div class="palm-list">
+   			<div class="palm-row first">
+				<div class="palm-row-wrapper">
+					<div class="label">Enable Schedule</div>
+					<div x-mojo-element="CheckBox" id="schedule" class="checkboxClass" name="checkboxName"></div>
+				</div>
+			</div>
+   			<div class="palm-row">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="TimePicker" id="startTime" class="timepickerClass"  name="timepickerName"></div>
+  				</div>
+			</div>
+   			<div class="palm-row last">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="TimePicker" id="closeTime" class="timepickerClass"  name="timepickerName"></div>
+  				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="palm-group">
+		<div class="palm-group-title">Options</div>
+		<div class="palm-list">
+   			<div class="palm-row first">
+				<div class="palm-row-wrapper">
+					<div class="label">Auto-close Card on Launch</div>
+					<div x-mojo-element="CheckBox" id="autoclose" class="checkboxClass" name="checkboxName"></div>
+				</div>
+			</div>
+   			<div class="palm-row last">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="Button" class="palmbutton primary" id="addLauncherButton"></div>
+					<div class="padded small">This will add a dedicated "Send to Computer" neato! icon in your launcher that will open neato! straight to that card.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div class="palm-group">
+		<div class="palm-group-title">Applications</div>
+		<div class="palm-list">
+   			<div class="palm-row first" x-mojo-tap-highlight="true" style="display: none;">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ListSelector" id="appMaps" class="listselectorClass" name="listselectorName"></div>
+				</div>
+			</div>
+   			<div class="palm-row last" x-mojo-tap-highlight="true">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ListSelector" id="appIPK" class="listselectorClass" name="listselectorName"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc=''>Send Anonymous Statistics</div>
+		<div class="palm-list">
+   			<div class="palm-row first">
+				<div class="palm-row-wrapper">
+					<div class="padded small">The app sends anonymous statistics (phone model, webOS version, country, and carrier name) to Metrix. These statistics are only viewable by the developer (Zhephree) for purposes of understanding who the userbase is and how many users we have. This makes development better and the app better. You have the option of not sending these statistics, but they'd be a big help to us!</div>
+				</div>
+			</div>
+   			<div class="palm-row last" x-mojo-tap-highlight="true">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ListSelector" id="sendstats" class="listselectorClass" name="listselectorName"></div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+</div>

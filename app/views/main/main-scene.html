@@ -1,0 +1,171 @@
+<!-- TODO: replace the contents of this file with your own html -->
+<div id="main">
+	<div class="" id="nheader">
+		<div x-mojo-element="ToggleButton" id="enabled" class="togglebuttonClass" name="togglebuttonName" style="display:none;"></div>
+	</div>
+	
+	<div id="box-wrapper">
+		<div id="box-o-codes">
+			<div id="code-row">
+				<div id="code"></div>
+			</div>
+			<div id="friend-code-row">
+				<div id="friendcode"></div>
+			</div>
+			<div id="link-slider">
+				<div id="openLinkSlider"  x-mojo-touch-feedback="immediate">
+					View Link and Info
+				</div>
+				<div id="link-slider-content">
+					<div id="url"></div>
+					<div id="emaillink" style="display:inline-block;"></div>
+					<a id="regenerate" style="display:none;">Regenerate</a>			
+				</div>
+			</div>
+		</div>
+		<div id="box-shadow"></div>
+	</div>
+	
+	<div id="buttons-wrapper">
+		<div id="add-friend-button" x-mojo-touch-feedback="immediate"></div>
+		<div id="send-to-button" x-mojo-touch-feedback="immediate"></div>
+		<div id="reload-dash-button" x-mojo-touch-feedback="immediate"></div>
+	</div>
+	
+	<div id="historyList-wrapper">
+		<div class="list-top"></div>
+		<div id="historyList" x-mojo-element="List" ></div>
+		<div class="list-bottom">
+			<div id="refresh-history-button" x-mojo-touch-feedback="immediate"></div>
+		</div>
+	</div>
+	
+	<div id="prefs-button" x-mojo-touch-feedback="immediate"></div>
+
+
+	<div id="dialog">
+		<div id="dialog-title">Welcome!</div>
+		<div id="dialog-content">
+		
+		</div>
+		<div id="dialog-button" x-mojo-touch-feedback="immediate"></div>
+	</div>
+<!--
+	<div class="palm-group">
+		<div class="palm-group-title">Your Code</div>
+		<div class="palm-list">
+			<div class="palm-row first">
+				<!--<div id="code"></div>->
+			</div>
+			<div class="palm-row" id="button-row" style="display: none;">
+				<div x-mojo-element="Button" class="palmbutton primary" id="generateButton"></div>
+			</div>
+			<div class="palm-row last" id="link-row">
+				<div id="openLinkDrawer" x-mojo-tap-highlight="momentary">View Link and Info</div>
+				<div x-mojo-element="Drawer" id="linkDrawer" class="drawerClass" name="drawerName">
+					<div id="url"></div>
+					<div class="padded" id="emaillink" style="display:none;"></div>
+					<div class="padded small">
+						Once your URL has been generated, visit it on your computer and bookmark the link it gives you in your web browser.
+						For more info, select "Instructions" from the "neato!" menu in the upper left of the screen.
+					</div>
+					<a class="padded" id="regenerate" style="display:none;">Regenerate</a>
+				</div>
+			</div>
+		</div>
+	</div>-->
+
+	<!--<div x-mojo-element="Button" class="neato-button palmbutton" id="sendButton"></div>-->
+
+	<!--<div class="palm-group">
+		<div class="palm-group-title">Recent Messages</div>
+		<div class="palm-list">
+			<div class="palm-row first">
+					<div x-mojo-element="Button" class="palmbutton primary" id="historyButton"></div>
+			</div>
+			<div class="palm-row last" >
+				<div class="padded small">
+					<div id="historyList" x-mojo-element="List" ></div>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	<!--<div x-mojo-element="Button" class="palmbutton primary" id="historyButton"></div>-->
+	
+	
+<!--
+	<div class="palm-group">
+		<div class="palm-group-title">Your Friend Code</div>
+		<div class="palm-list">
+			<div class="palm-row first">
+				<!--<div id="friendcode"></div>->
+			</div>
+			<div class="palm-row" id="friend-button-row" style="display: none;">
+				<div x-mojo-element="Button" class="palmbutton primary" id="generateFriendButton"></div>
+			</div>
+			<div class="palm-row last">
+				<div class="palm-row-wrapper"  x-mojo-tap-highlight="immediate" id="setName">
+					<div class="label">Your Name</div>
+					<div id="yourname">Set Your Name</div>
+				</div>
+			</div>
+		</div>
+	</div>-->
+
+	<!--
+	<div x-mojo-element="Button" class="palmbutton primary" id="addFriendButton"></div>
+
+	<div x-mojo-element="Button" class="palmbutton primary" id="reloadButton"></div>
+
+	<div class="palm-group">
+		<div class="palm-group-title">Options</div>
+		<div class="palm-list">
+   			<div class="palm-row first">
+				<div class="palm-row-wrapper">
+					<div class="label">Auto-close Card on Launch</div>
+					<div x-mojo-element="CheckBox" id="autoclose" class="checkboxClass" name="checkboxName"></div>
+				</div>
+			</div>
+   			<div class="palm-row last">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="Button" class="palmbutton primary" id="addLauncherButton"></div>
+					<div class="padded small">This will add a dedicated "Send to Computer" neato! icon in your launcher that will open neato! straight to that card.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="palm-group">
+		<div class="palm-group-title">Applications</div>
+		<div class="palm-list">
+   			<div class="palm-row first" x-mojo-tap-highlight="true" style="display: none;">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ListSelector" id="appMaps" class="listselectorClass" name="listselectorName"></div>
+				</div>
+			</div>
+   			<div class="palm-row last" x-mojo-tap-highlight="true">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ListSelector" id="appIPK" class="listselectorClass" name="listselectorName"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc=''>Send Anonymous Statistics</div>
+		<div class="palm-list">
+   			<div class="palm-row first">
+				<div class="palm-row-wrapper">
+					<div class="padded small">The app sends anonymous statistics (phone model, webOS version, country, and carrier name) to Metrix. These statistics are only viewable by the developer (Zhephree) for purposes of understanding who the userbase is and how many users we have. This makes development better and the app better. You have the option of not sending these statistics, but they'd be a big help to us!</div>
+				</div>
+			</div>
+   			<div class="palm-row last" x-mojo-tap-highlight="true">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ListSelector" id="sendstats" class="listselectorClass" name="listselectorName"></div>
+				</div>
+			</div>
+		</div>		
+	</div>-->
+
+</div>

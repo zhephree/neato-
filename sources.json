@@ -1,0 +1,57 @@
+[
+    {"source": "app/assistants/app-assistant.js"},
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/assistants/time-dialog-assistant.js"},
+    {"source": "app/assistants/add-friend-dialog.js"},
+    {"source": "app/assistants/set-name-dialog.js"},
+    {"source": "app/models/metrix.js"},
+    {"source": "app/models/asyncWrappers.js"},
+    {
+        "scenes": "dashboard",
+        "source": "app/assistants/dashboard-assistant.js"
+    },
+    {
+        "scenes": "main",
+        "source": "app/assistants/main-assistant.js"
+    },
+    {
+        "scenes": "add-task",
+        "source": "app/assistants/add-task-assistant.js"
+    },
+    {
+        "scenes": "textview",
+        "source": "app/assistants/textview-assistant.js"
+    },
+    {
+        "scenes": "about",
+        "source": "app/assistants/about-assistant.js"
+    },
+    {
+        "scenes": "download",
+        "source": "app/assistants/download-assistant.js"
+    },
+    {
+        "scenes": "send-data",
+        "source": "app/assistants/send-data-assistant.js"
+    },
+    {
+        "scenes": "friend-request",
+        "source": "app/assistants/friend-request-assistant.js"
+    },
+    {
+        "scenes": "approve-request",
+        "source": "app/assistants/approve-request-assistant.js"
+    },
+    {
+        "scenes": "received-url",
+        "source": "app/assistants/received-url-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/preferences-assistant.js"
+    },
+    {
+        "scenes": "received-contact",
+        "source": "app/assistants/received-contact-assistant.js"
+    }
+]

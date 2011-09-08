@@ -1,0 +1,10 @@
+{
+	"id": "com.zhephree.neato",
+	"version": "1.0.0",
+	"vendor": "Zhephree",
+	"noWindow" : "true",
+	"type": "web",
+	"main": "index.html",
+	"title": "neato!",
+	"icon": "icon_64x64.png"
+}

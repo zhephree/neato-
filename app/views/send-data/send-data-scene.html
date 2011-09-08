@@ -1,0 +1,69 @@
+<!-- TODO: replace the contents of this file with your own html -->
+<div class="palm-dark">
+	<div class="" id="nheader">
+		<!--<div x-mojo-element="ToggleButton" id="enabled" class="togglebuttonClass" 
+ name="togglebuttonName"></div>-->
+	</div>
+	
+	<div class="palm-group">
+		<div class="palm-group-title">neato send!</div>
+		<div class="palm-list">
+   			<div class="palm-row first" x-mojo-tap-highlight="true">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ListSelector" id="sendTo" class="listselectorClass" name="listselectorName"></div>
+				</div>
+			</div>
+			<div class="palm-row last" id="textrow">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+	      				<div x-mojo-element="TextField" id="text-content"></div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row last people-picker" x-mojo-tap-highlight="momentary" style="display:none;" id="thecontact">
+			  <div class="palm-row-wrapper">
+			    <div class="icon status #{imAvailabilityFormatted} left" style="display: hidden;"></div>
+			    <div class="icon list-view-avatar unclipped right">
+			        <div class="image">
+			            <img src="images/icons/none.png" id="contactIcon">
+			        </div>
+			        <div class="image-well">
+			        </div>
+			    </div>
+			    <div class="title truncating-text">
+			      <span id="contactName"></span>
+			    </div>
+			  </div>
+			</div>
+			<div class="palm-row last" x-mojo-tap-highlight="momentary" style="display:none;" id="thefile">
+			  <div class="palm-row-wrapper">
+				<div id="filename"></div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<div id="send-data-button" x-mojo-touch-feedback="immediate"></div>
+	
+	<div id="attach-contact-button" x-mojo-touch-feedback="immediate" style="display:none;"></div>
+	<div id="attach-file-button" x-mojo-touch-feedback="immediate" style="display:none;"></div>
+
+	<!--<div class="people-picker">
+		<div class="palm-row" x-mojo-tap-highlight="momentary" style="display:none;" id="thecontact">
+		  <div class="palm-row-wrapper">
+		    <div class="icon status #{imAvailabilityFormatted} left"></div>
+		    <div class="icon list-view-avatar unclipped right">
+		        <div class="image">
+		            <img src="images/icons/none.png" id="contactIcon">
+		        </div>
+		        <div class="image-well">
+		        </div>
+		    </div>
+		    <div class="title truncating-text">
+		      <span id="contactName"></span>
+		    </div>
+		  </div>
+		</div>
+	</div>-->
+	
+
+</div>
